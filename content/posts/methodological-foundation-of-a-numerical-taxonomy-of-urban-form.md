@@ -1,0 +1,20 @@
+---
+title: "Methodological Foundation of a Numerical Taxonomy of Urban Form"
+date: "2021-12-16"
+---
+
+The final paper based on my PhD thesis is (finally!) out in the Environment and Planning B: Urban Analytics and City Science. We looked into ways of identifying patterns of urban form and came up with the Methodological foundation of a numerical taxonomy of urban form. You can read it on the [journal website](https://journals.sagepub.com/doi/full/10.1177/23998083211059835) (open access).
+
+We use urban morphometrics (i.e. data-driven methods) to derive a classification of urban form in Prague and Amsterdam, and you can check the results in online interactive maps - [http://martinfleis.github.io/numerical-taxonomy-maps/](http://martinfleis.github.io/numerical-taxonomy-maps/) or below. (Check the layers toggle!)
+
+<iframe src="https://martinfleis.github.io/numerical-taxonomy-maps/" width="100%" height="500" frameBorder="0"></iframe>
+
+The paper explores the method that can eventually support the creation of a taxonomy of urban types in a similar way you know from biology. We even borrowed the foundations of the method from biology.
+
+We measure many variables based on building footprints and street networks (using the [momepy](https://docs.momepy.org) Python package) and use Gaussian Mixture Model clustering to get urban tissue types independently in both cities. Then we apply Ward's hierarchical clustering to build a taxonomy of these types.
+
+The code is available, and the repo even includes a clean Jupyter notebook with the complete method, so you can apply it to your data if you wish. [https://github.com/martinfleis/numerical-taxonomy-paper](https://github.com/martinfleis/numerical-taxonomy-paper). If you instead want to play with our data, it is available as well [https://doi.org/10.6084/m9.figshare.16897102](https://doi.org/10.6084/m9.figshare.16897102).
+
+## Abstract
+
+Cities are complex products of human culture, characterised by a startling diversity of visible traits. Their form is constantly evolving, reflecting changing human needs and local contingencies, manifested in space by many urban patterns. Urban morphology laid the foundation for understanding many such patterns, largely relying on qualitative research methods to extract distinct spatial identities of urban areas. However, the manual, labour-intensive and subjective nature of such approaches represents an impediment to the development of a scalable, replicable and data-driven urban form characterisation. Recently, advances in geographic data science and the availability of digital mapping products open the opportunity to overcome such limitations. And yet, our current capacity to systematically capture the heterogeneity of spatial patterns remains limited in terms of spatial parameters included in the analysis and hardly scalable due to the highly labour-intensive nature of the task. In this paper, we present a method for numerical taxonomy of urban form derived from biological systematics, which allows the rigorous detection and classification of urban types. Initially, we produce a rich numerical characterisation of urban space from minimal data input, minimising limitations due to inconsistent data quality and availability. These are street network, building footprint and morphological tessellation, a spatial unit derivative of Voronoi tessellation, obtained from building footprints. Hence, we derive homogeneous urban tissue types and, by determining overall morphological similarity between them, generate a hierarchical classification of urban form. After framing and presenting the method, we test it on two cities – Prague and Amsterdam – and discuss potential applications and further developments. The proposed classification method represents a step towards the development of an extensive, scalable numerical taxonomy of urban form and opens the way to more rigorous comparative morphological studies and explorations into the relationship between urban space and phenomena as diverse as environmental performance, health and place attractiveness.

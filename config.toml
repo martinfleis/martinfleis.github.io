@@ -1,0 +1,33 @@
+baseURL = 'http://martinfleischmann.net/'
+languageCode = 'en-us'
+title = 'Martin Fleischmann'
+theme = "PaperMod"
+sectionPagesMenu = 'main'
+
+[permalinks]
+posts = "/:slug"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[params.homeInfoParams]
+Content = '''
+I am a researcher in **urban morphology** and geographic data
+science focusing on quantitative analysis and classification of cities,
+remote sensing, and bits of AI. While not doing the research, I write open source software,
+promote open science and help others with their data.
+'''
+Title = "Martin Fleischmann"
+
+
+[[params.socialIcons]]
+name = "email"
+url = "mailto:martin@martinfleischmann.net"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/martinfleis"
+
+[[params.socialIcons]]
+name = "twitter"
+url = "https://twitter.com/martinfleis"
