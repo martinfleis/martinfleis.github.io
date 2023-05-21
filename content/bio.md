@@ -1,5 +1,5 @@
 ---
-title: "Bio"
+title: "About me"
 layout: "page"
 url: "/longer-bio/"
 menu: 'main'

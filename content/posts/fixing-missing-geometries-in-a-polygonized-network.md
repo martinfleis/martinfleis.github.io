@@ -3,7 +3,7 @@ title: "Fixing missing geometries in a polygonized network"
 date: "2023-01-23"
 ---
 
-If you ever wanted to polygonizeCreate polygons formed from the linework of a set of geometries, as per shapely's definition. something like a street network with `[shapely](http://shapely.readthedocs.io)`, you may have noticed missing geometries in the result, like in the case of Vienna below. I had the same issue, and this is a note to myself with a solution.
+If you ever wanted to polygonize (i.e. create polygons formed from the linework of a set of geometries, as per shapely's definition) something like a street network with [`shapely`](http://shapely.readthedocs.io), you may have noticed missing geometries in the result, like in the case of Vienna below. I had the same issue, and this is a note to myself with a solution.
 
 ![](../posts/images/wrong.png)
 
@@ -21,15 +21,17 @@ If you try polygonize in QGIS, you will notice that their first step before the 
 
 ## noding
 
-With shapely you can do the same with `shapely.node` functionnote that I am talking about shapely 2.0 or newer here. Since that only adds nodes within a geometry, we need to merge the whole array of linestrings to a single GeometryCollection first.
+With shapely you can do the same with `shapely.node` function[^note that I am talking about shapely 2.0 or newer here]. Since that only adds nodes within a geometry, we need to merge the whole array of linestrings to a single GeometryCollection first.
 
 The key part of the workflow looks like this:
 
+```py
 linestrings = ... # our geopandas.GeoSeries of linestrings representing street network
 collection = shapely.GeometryCollection(linestrings.array)  # combine to a single object
 noded = shapely.node(collection)  # add missing nodes
 polygonized = shapely.polygonize(noded.geoms)  # polygonize based on an array of nodded parts
 polygons = geopandas.GeoSeries(polygonized.geoms)  # create a GeoSeries from parts
+```
 
 The result matches the one QGIS gives you, with no missing polygons as shown below.
 
