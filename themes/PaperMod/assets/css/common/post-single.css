@@ -76,6 +76,11 @@
     -webkit-box-decoration-break: clone;
 }
 
+.post-content a:hover {
+    text-decoration:overline;
+}
+
+
 .post-content a code {
     margin: auto 0;
     border-radius: 0;
