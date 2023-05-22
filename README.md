@@ -1,2 +1,3 @@
-# martinfleis.github.io
-Personal site
+# martinfleischmann.net
+
+Personal site running at martinfleischmann.net using Hugo.

@@ -23,6 +23,10 @@
     padding: 0 16px;
 }
 
+.pagination a:hover {
+    background: var(--accent)
+}
+
 .pagination .next {
     margin-inline-start: auto;
 }
@@ -33,6 +37,10 @@
 
 .social-icons a:not(:last-of-type) {
     margin-inline-end: 12px;
+}
+
+.social-icons a:hover {
+    color: var(--accent)
 }
 
 .social-icons a svg {
@@ -66,3 +74,5 @@ div.highlight:hover .copy-code,
 pre:hover .copy-code {
     display: block;
 }
+
+h2.latest-main {margin-bottom: 25px}

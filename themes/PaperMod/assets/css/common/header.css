@@ -36,9 +36,17 @@
     margin-inline-end: 8px;
 }
 
+.logo a:hover {
+    color: var(--accent);
+}
+
 button#theme-toggle {
     font-size: 26px;
     margin: auto 4px;
+}
+
+button#theme-toggle:hover {
+    color: var(--accent);
 }
 
 body.dark #moon {
@@ -65,9 +73,14 @@ body:not(.dark) #sun {
     font-size: 16px;
 }
 
+#menu a:hover {
+    color: var(--accent);
+}
+
 #menu .active {
     font-weight: 500;
     border-bottom: 2px solid currentColor;
+    color: var(--accent);
 }
 
 .lang-switch li,

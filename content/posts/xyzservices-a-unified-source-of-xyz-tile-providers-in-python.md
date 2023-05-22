@@ -4,8 +4,8 @@ date: "2021-08-03"
 tags:
   - "community"
   - "python"
-coverImage: "../posts/images/xyzmaps.png"
 ---
+![Image illustrating various basemaps](../posts/images/xyzmaps.png)
 
 A Python ecosystem offers numerous tools for the visualisation of data on a map. A lot of them depend on XYZ tiles, providing a base map layer, either from OpenStreetMap, satellite or other sources. The issue is that each package that offers XYZ support manages its own list of supported providers.
 
@@ -21,7 +21,7 @@ Let me quickly look at a few popular packages and their approach to tile managem
 
 ### folium
 
-`folium` is a lightweight interface to a JavaScript leaflet library. It providers built-in support for 6 types of tiles and allows passing any XYZ URL and its attribution to a map. It means that it mostly relies on external sources of tile providers.
+`folium` is a lightweight interface to a JavaScript leaflet library. It has built-in support for 6 types of tiles and allows passing any XYZ URL and its attribution to a map. It means that it mostly relies on external sources of tile providers.
 
 ### ipyleaflet
 

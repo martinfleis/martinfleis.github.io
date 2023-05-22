@@ -51,7 +51,8 @@
 
 .footer a:hover,
 .top-link:hover {
-    color: var(--primary);
+    background: var(--accent);
+    color: var(--theme);
 }
 
 .top-link:focus,

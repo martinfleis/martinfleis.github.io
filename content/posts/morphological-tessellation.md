@@ -18,11 +18,16 @@ Let's say that we want as high resolution of our data as possible, so we need th
 
 ![](../posts/images/190628_ISUF19_presentation.006.png)
 
-But the reality is not so simple. Firstly, you need to get a layer representing plots. Here you may be lucky and find one, nice and clean, which you can use for the analysis. However, if you try to the same thing for another city on another continent, you quickly figure out that the situation is becoming tricky. Plots have various definitions - each country captures them differently [^Kropf, K. (2018) ‘Plots, property and behaviour’, _Urban Morphology_, 22(1), pp. 5–14.]. So, in the end, your plots from different places are not representing the same concept, and your results are not comparable.[^An additional issue with plots comes with modernist housing development, where the plot does not have a structural role, but that is a whole another story.]
+But the reality is not so simple. Firstly, you need to get a layer representing plots. Here you may be lucky and find one, nice and clean, which you can use for the analysis. However, if you try to the same thing for another city on another continent, you quickly figure out that the situation is becoming tricky. Plots have various definitions - each country captures them differently [^1]. So, in the end, your plots from different places are not representing the same concept, and your results are not comparable.[^2]
+
+[^1]: Kropf, K. (2018) ‘Plots, property and behaviour’, _Urban Morphology_, 22(1), pp. 5–14.
+[^2]: An additional issue with plots comes with modernist housing development, where the plot does not have a structural role, but that is a whole another story.
 
 ![](../posts/images/190628_ISUF19_presentation.007-1024x568.png)
 
-One possible solution is to use morphological tessellation as a spatial unit instead. Its principle is simple - it is a Voronoi tessellation based on building footprint polygons. In practice, each building polygon is represented as a series of points capturing its boundaries. Points are used to generate Voronoi, and relevant cells are dissolved to get a single cell representing tessellation cell based on a single building.[^There are algorithms which can do tessellation based on polygon directly (e.g. CGAL library), but point-based implementation is much easier to do in Python, R or even QGIS and the result is almost the same.]
+One possible solution is to use morphological tessellation as a spatial unit instead. Its principle is simple - it is a Voronoi tessellation based on building footprint polygons. In practice, each building polygon is represented as a series of points capturing its boundaries. Points are used to generate Voronoi, and relevant cells are dissolved to get a single cell representing tessellation cell based on a single building.[^3]
+
+[^3]: There are algorithms which can do tessellation based on polygon directly (e.g. CGAL library), but point-based implementation is much easier to do in Python, R or even QGIS and the result is almost the same.
 
 ![](../posts/images/190628_ISUF19_presentation.008.png)
 

@@ -21,11 +21,11 @@ For those of you who never used it, the aim of topological colouring is to assig
 
 The adaptation of the Nyall Dawson's original algorithm was quite straightforward, the logic of Python algorithms for QGIS and for GeoPandas is the same. So in October, I have [asked the others](https://github.com/geopandas/geopandas/issues/1165) what would be the ideal way of sharing it.
 
-<https://twitter.com/martinfleis/status/1184219043550650368>
+{{< tweet user="martinfleis" id="1184219043550650368" >}}
 
 The original license was not compatible with the one we use in GeoPandas and I was not sure if GeoPandas itself is actually the right place for it. So while thinking about it, Nyall himself made the situation easier and offered to relicense the original code.
 
-<https://twitter.com/nyalldawson/status/1184375622748889088>
+{{< tweet user="nyalldawson" id="1184375622748889088" >}}
 
 However, there was no clear consensus what is the best way at that time and the whole idea was set aside, until the end of the year, when I decided to keep it simple and release the script as a tiny Python package. And `[greedy](https://github.com/martinfleis/greedy)` was born.
 

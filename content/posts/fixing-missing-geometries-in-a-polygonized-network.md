@@ -21,7 +21,9 @@ If you try polygonize in QGIS, you will notice that their first step before the 
 
 ## noding
 
-With shapely you can do the same with `shapely.node` function[^note that I am talking about shapely 2.0 or newer here]. Since that only adds nodes within a geometry, we need to merge the whole array of linestrings to a single GeometryCollection first.
+With shapely you can do the same with `shapely.node` function[^1]. Since that only adds nodes within a geometry, we need to merge the whole array of linestrings to a single GeometryCollection first.
+
+[^1]:note that I am talking about shapely 2.0 or newer here
 
 The key part of the workflow looks like this:
 

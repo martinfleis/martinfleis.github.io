@@ -77,7 +77,7 @@
 }
 
 .post-content a:hover {
-    text-decoration:overline;
+    color: var(--accent);
 }
 
 

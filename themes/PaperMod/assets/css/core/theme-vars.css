@@ -15,6 +15,7 @@
     --hljs-bg: rgb(28, 29, 33);
     --code-bg: rgb(238, 238, 238);
     --border: rgb(238, 238, 238);
+    --accent: rgb(250, 148, 165);
 }
 
 .dark {
