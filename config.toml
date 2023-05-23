@@ -2,6 +2,7 @@ baseURL = 'http://martinfleischmann.net/'
 languageCode = 'en-us'
 title = 'Martin Fleischmann'
 theme = "PaperMod"
+googleAnalytics = 'G-68NX9FKNLJ'
 
 [permalinks]
 posts = "/:slug"
