@@ -1,0 +1,56 @@
+baseURL: "http://martinfleischmann.net/"
+languageCode: en-us
+title: Martin Fleischmann
+theme: PaperMod
+googleAnalytics: G-68NX9FKNLJ
+
+permalinks:
+  posts: "/:slug"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowCodeCopyButtons: true
+
+  homeInfoParams:
+    FirstParagraph: >
+      I am a researcher in **urban morphology** and geographic data
+      science focusing on quantitative analysis and classification of cities,
+      remote sensing, and bits of AI. While not doing the research, I write open
+      source software, promote open science and help others with their data.
+    SecondParagraph: >
+      I am an author or a maintainer of a range of open scientific software,
+      including [GeoPandas](https://geopandas.org), the open source Python
+      package for geographic data handling, [momepy](http://docs.momepy.org), the urban
+      morphology measuring toolkit for Python, [Xvec](https://xvec.readthedocs.io), the
+      tool for vector data cubes, and [PySAL](https://pysal.org), the Python library for spatial
+      analysis.
+    Title: Martin Fleischmann
+    Photo: posts/images/2019_des_sq-2048x2048.png
+
+  socialIcons:
+    - name: email
+      url: "mailto:martin@martinfleischmann.net"
+    - name: github
+      url: "https://github.com/martinfleis"
+    - name: twitter
+      url: "https://twitter.com/martinfleis"
+
+menu:
+  main:
+    - name: Posts
+      pageRef: /posts/
+      weight: 2
+    - identifier: CV
+      name: CV
+      url: "https://github.com/martinfleis/cv/raw/main/cv-martinfleis.pdf"
+      weight: 3
+    - identifier: GitHub
+      name: GitHub
+      url: "https://github.com/martinfleis"
+      weight: 4
