@@ -40,6 +40,8 @@ params:
       url: "https://github.com/martinfleis"
     - name: twitter
       url: "https://twitter.com/martinfleis"
+    - name: mastodon
+      url: "https://fosstodon.org/@martinfleis"
 
 menu:
   main:
