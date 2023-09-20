@@ -49,3 +49,5 @@ Can't tell which of the two is a better approach. Maybe bits of each would work 
 ## What is next?
 
 We'll see. There is now a [discussion forum](https://github.com/spatial-data-science/discuss), some ideas, and a plan to meet again in a year for SDSL vol.2. This time in Prague. See you there!
+
+Massive thanks to Ezder and Yomna for making this happen. We're grateful.
