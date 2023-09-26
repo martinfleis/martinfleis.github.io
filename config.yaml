@@ -51,8 +51,8 @@ menu:
     - identifier: CV
       name: CV
       url: "https://github.com/martinfleis/cv/raw/main/cv-martinfleis.pdf"
-      weight: 3
+      weight: 4
     - identifier: GitHub
       name: GitHub
       url: "https://github.com/martinfleis"
-      weight: 4
+      weight: 5

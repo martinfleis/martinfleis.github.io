@@ -5,6 +5,7 @@ tags:
   - "community"
   - "python"
   - "talks"
+  - "teaching"
 ---
 
 A talk from the [OpenGeoHub Summer School 2022](https://opengeohub.org/summer-school/siegburg-2022/).

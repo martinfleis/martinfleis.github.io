@@ -6,6 +6,7 @@ tags:
   - "data"
   - "python"
   - "talks"
+  - "teaching"
 ---
 
 The workshop organised together with [James D. Gaboardi](https://www.ornl.gov/staff-profile/james-d-gaboardi) during the Spatial Data Science Symposium 2022 is now available online. See the recording below and access the workshop material on [Github](https://github.com/martinfleis/sdss22-workshop) from which you can even run the code online, in your browser.

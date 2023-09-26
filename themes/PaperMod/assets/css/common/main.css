@@ -76,3 +76,9 @@ pre:hover .copy-code {
 }
 
 h2.latest-main {margin-bottom: 25px}
+
+img[src$='#floatleft']
+{
+	float:left;
+    max-width: 30%;
+}
