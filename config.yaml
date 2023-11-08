@@ -50,7 +50,7 @@ menu:
       weight: 2
     - identifier: CV
       name: CV
-      url: "https://github.com/martinfleis/cv/raw/main/cv-martinfleis.pdf"
+      url: "https://martinfleischmann.net/cv/cv-martinfleis.pdf"
       weight: 4
     - identifier: GitHub
       name: GitHub
