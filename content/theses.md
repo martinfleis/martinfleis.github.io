@@ -4,7 +4,7 @@ layout: "page"
 url: "/theses/"
 ---
 
-Students are invited to work on bachelor's or master's theses on topics linked to the research areas of the ongoing projects and on the general scope of the work within the team. Note that with some exceptions of urban morphology, primarily quantitative methods are expected to be used.
+Students are invited to work on Bachelor's or Master's theses on topics linked to the research areas of the ongoing projects and on the general scope of the work of the team. Note that with an exception of urban morphology, primarily quantitative methods are expected to be used.
 
 *Projects can be written in Czech or English.*
 
