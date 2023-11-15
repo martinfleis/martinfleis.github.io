@@ -47,3 +47,7 @@ An assessment of the ability of multispectral satellite imagery to *sense* vario
 ## Spatial Data Science and advanced methods of quantitative geography
 
 Proposals methodically falling under spatial data science and usage of advanced methods of quantitative geography are generally welcome even on topics other than those listed above.
+
+### Modifiable Areal Unit Problem in urban environments
+
+Modifiable Areal Unit Problem (MAUP) deals with selecting a spatial unit of analysis and its impacts on the analysis results. Cities are known for their heterogeneity, and a spatial unit suitable for the historical core may need to be revised in the modernist housing estates. This project should examine the issue and assess the suitability of commonly used spatial units and the problems they may bring.
