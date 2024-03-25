@@ -10,7 +10,7 @@ Martin is a member the [Urban and Regional Laboratory](http://urrlab.cz) at the 
 
 While not doing the research, he writes open source software, promotes open science and helps others with their data as a freelancer.
 
-His research interest lies in urban morphology and geographic data science focusing on quantitative analysis and classification of urban form, remote sensing and all the related things, bringing the architectural aspects of the description of cities to geography and data science.
+His research interest lies in urban morphology and spatial data science focusing on quantitative analysis and classification of urban form, remote sensing and all the related things, bringing the architectural aspects of the description of cities to geography and data science.
 
 Martin an author or a maintainer of a range of open scientific software. He developed [`momepy`](http://docs.momepy.org), the open source urban morphology measuring toolkit for Python providing a wide range of tools for morphometric analysis. Since 2019, Martin is a member of the development team of [`GeoPandas`](http://geopandas.org), the open source Python package for geographic data. In 2020, he joined the development team of [`PySAL`](https://pysal.org), the Python library for spatial analysis. On top of that, he regularly contributes to other open source projects and develops his own packages like [`Clustergram`](http://clustergram.readthedocs.io) for visualisation of cluster analysis or [`Xvec`](https://xvec.readthedocs.io) for vector data cubes handling.
 
@@ -18,5 +18,7 @@ Martin an author or a maintainer of a range of open scientific software. He deve
 <br>
 [@martinfleis](https://twitter.com/martinfleis)
 <br>
+[@martinfleis@fosstodon.org](https://fosstodon.org/@martinfleis)
 <br>
-[Photo](../posts/images/2019_des_sq-scaled.png)
+<br>
+[Photo](../2023.jpg)

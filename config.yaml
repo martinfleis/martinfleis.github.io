@@ -19,7 +19,7 @@ params:
 
   homeInfoParams:
     FirstParagraph: >
-      I am a researcher in **urban morphology** and geographic data
+      I am a researcher in **urban morphology** and spatial data
       science focusing on quantitative analysis and classification of cities,
       remote sensing, and all the related things. While not doing the research, I write open
       source software, promote open science and help others with their data.
