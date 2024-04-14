@@ -50,7 +50,7 @@ We tried to ensure that the behaviour of the Pyogrio engine matches the one of F
 geopandas.options.io_engine = "fiona"
 ```
 
-See the [migration guide](https://geopandas.org/en/latert/docs/user_guide/fiona_to_pyogrio.html) for some details.
+See the [migration guide](https://geopandas.org/en/latest/docs/user_guide/fiona_to_pyogrio.html) for some details.
 
 ### Datasets are gone
 
