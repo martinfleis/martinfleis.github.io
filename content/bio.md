@@ -6,7 +6,7 @@ menu: "main"
 weight: 1
 ---
 
-Martin is a member the [Urban and Regional Laboratory](http://urrlab.cz) at the Charles University in Prague where he leads the [Research Team on Urban Structure](https://uscuni.github.io), a fellow in the [Geographic Data Science Lab](http://geographicdatascience.com) at the University of Liverpool and a former member of the [Urban Design Studies Unit](http://udsu-strath.com) at the University of Strathclyde. He has a PhD in Architecture from the University of Strathclyde in Glasgow, where he focused on urban morphology and quantitative aspects characterisation of urban form. He holds degrees in Urban Design (University of Strathclyde, 2017) and Architecture and Urbanism (Czech Technical University in Prague, 2015).
+Martin is a member of the [Urban and Regional Laboratory](http://urrlab.cz) at the Charles University in Prague where he leads the [Research Team on Urban Structure](https://uscuni.github.io), a fellow in the [Geographic Data Science Lab](http://geographicdatascience.com) at the University of Liverpool and a former member of the [Urban Design Studies Unit](http://udsu-strath.com) at the University of Strathclyde. He has a PhD in Architecture from the University of Strathclyde in Glasgow, where he focused on urban morphology and quantitative aspects characterisation of urban form. He holds degrees in Urban Design (University of Strathclyde, 2017) and Architecture and Urbanism (Czech Technical University in Prague, 2015).
 
 While not doing the research, he writes open source software, promotes open science and helps others with their data as a freelancer.
 
