@@ -57,7 +57,7 @@ going with our promises, probably sometime next year.
 We're also planning some other things, but you can check them out on the
 [roadmap](https://geopandas.org/en/stable/about/roadmap.html).
 
-I also wrote a [post](geopandas-1-0-alpha) earlier about the major API changes in
+I also wrote a [post]({{< ref "geopandas-1-0-alpha" >}})  earlier about the major API changes in
 GeoPandas. If you are wondering what might break your code, this is the post to check.
 
 Let's get updating!
