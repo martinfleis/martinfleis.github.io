@@ -26,9 +26,9 @@ Students enrolled in `MZ340V17` can book a slot to discuss the assignment via [c
 
 Standalone micro-credentials online course taught in English. The course is derived from Spatial Data Science for Social Geography but is taught as a week-long intense workshop and is open to anyone. **Registrations are now open for August 2024**. Available at [martinfleischmann.net/sds/micro](https://martinfleischmann.net/sds/micro).
 
-## Topics for Bachelor and Master theses
+## Bachelor, Master, and Doctoral theses
 
-Students are invited to work on bachelor's or master's theses on topics linked to the research areas of the ongoing projects and on the general scope of the work within the team. Note that with some exceptions of urban morphology, primarily quantitative methods are expected to be used.
+Students are invited to work on Bachelor's or Master's theses and Doctoral projects on topics linked to the research areas of the ongoing projects and on the general scope of the work within the team. Note that with some exceptions of urban morphology, primarily quantitative methods are expected to be used.
 
 See the [list of proposed topics]({{< ref "/theses" >}}).
 
