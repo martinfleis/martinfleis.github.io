@@ -69,3 +69,7 @@ Proposals methodically falling under spatial data science and usage of advanced 
 #### Modifiable Areal Unit Problem in urban environments
 
 Modifiable Areal Unit Problem (MAUP) deals with selecting a spatial unit of analysis and its impacts on the analysis results. Cities are known for their heterogeneity, and a spatial unit suitable for the historical core may need to be revised in the modernist housing estates. This project should examine the issue and assess the suitability of commonly used spatial units and the problems they may bring.
+
+#### The Impact of Erroneous Polygonal Coverage Topology on Spatial Statistical Methods
+
+Spatial statistics often relies on data structures reflecting topological relationship of individual observations. However, when the assumed polygonal coverage is not topologically sound, the relationship detection is affected. This in turn impacts the outcome of statistical methods relying on topology. This work shall map common issues in coverage topology and assess their effect on resulting statistics.
