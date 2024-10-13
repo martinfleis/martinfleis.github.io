@@ -9,7 +9,7 @@ tags:
   - "geopandas"
 ---
 
-With the release of Shapely 2.0, the GeoPandas-based code that have been optimised years ago may no longer provide the best performance. The workshop organised during the GeoPython 2023 together with Joris van den Bossche showed how to change that and write efficient and convenient GeoPandas code that uses the benefits of the latest developments in the Python geospatial ecosystem.
+With the release of Shapely 2.0, the GeoPandas-based code that have been optimised years ago may no longer provide the best performance. The workshop organised during the GeoPython 2023 together with Joris Van den Bossche showed how to change that and write efficient and convenient GeoPandas code that uses the benefits of the latest developments in the Python geospatial ecosystem.
 
 Workshop resources are available on [Github](https://github.com/martinfleis/efficient-geopandas-workshop).
 

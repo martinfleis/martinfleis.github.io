@@ -80,4 +80,4 @@ Many deprecations we warn about since 0.14 or earlier are now enforced. See the 
 
 We also have a bunch of new functionality coming but not all will be available in `1.0.0-alpha1` pre-release. I will try to cover it once we release the stable 1.0 in another post.
 
-[^1]: See [slides](https://jorisvandenbossche.github.io/talks/2022_GeoPython_geopandas/#32) on Pyogrio from Joris van den Bossche's talk at GeoPython 2022 for some comparison. Since then, certain operations are even faster with Pyogrio.
+[^1]: See [slides](https://jorisvandenbossche.github.io/talks/2022_GeoPython_geopandas/#32) on Pyogrio from Joris Van den Bossche's talk at GeoPython 2022 for some comparison. Since then, certain operations are even faster with Pyogrio.

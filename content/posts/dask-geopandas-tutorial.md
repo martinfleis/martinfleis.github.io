@@ -8,7 +8,7 @@ tags:
   - "teaching"
   - "geopandas"
 ---
-The workshop organised during the GeoPython 2022 together with Joris van den Bossche introduces the Dask-GeoPandas library and walks you through its key components, allowing you to take a GeoPandas workflow and run it in parallel, out-of-core and even distributed on a remote cluster.
+The workshop organised during the GeoPython 2022 together with Joris Van den Bossche introduces the Dask-GeoPandas library and walks you through its key components, allowing you to take a GeoPandas workflow and run it in parallel, out-of-core and even distributed on a remote cluster.
 
 Workshop resources are available on [Github](https://github.com/martinfleis/dask-geopandas-tutorial).
 
