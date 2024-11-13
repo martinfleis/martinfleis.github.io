@@ -38,8 +38,8 @@ params:
       url: "mailto:martin@martinfleischmann.net"
     - name: github
       url: "https://github.com/martinfleis"
-    - name: twitter
-      url: "https://twitter.com/martinfleis"
+    - name: bluesky
+      url: "https://bsky.app/profile/martinfleischmann.net"
     - name: mastodon
       url: "https://fosstodon.org/@martinfleis"
 
