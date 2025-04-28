@@ -17,15 +17,11 @@ This is a short story of one open-source algorithm and its journey from [QGIS](h
 
 Sometimes last year, I asked myself a question. How hard would it be to port [topological colouring](https://docs.qgis.org/3.10/en/docs/user_manual/processing_algs/qgis/cartography.html#topological-coloring) tool from QGIS to be used with GeoPandas? Considering that this particular QGIS tool is [written in Python](https://github.com/qgis/QGIS/blob/8a3c7b14c367771d096b4a6d006aa3c4b1017dd5/python/plugins/processing/algs/qgis/TopoColors.py), it seemed to be an easy task.
 
-For those of you who never used it, the aim of topological colouring is to assign colours to (usually) polygons in such a way, that no two adjacent polygons share the same colour (see the illustration in the embedded tweet below).
+For those of you who never used it, the aim of topological colouring is to assign colours to (usually) polygons in such a way, that no two adjacent polygons share the same colour.
 
 The adaptation of the Nyall Dawson's original algorithm was quite straightforward, the logic of Python algorithms for QGIS and for GeoPandas is the same. So in October, I have [asked the others](https://github.com/geopandas/geopandas/issues/1165) what would be the ideal way of sharing it.
 
-{{< tweet user="martinfleis" id="1184219043550650368" >}}
-
 The original license was not compatible with the one we use in GeoPandas and I was not sure if GeoPandas itself is actually the right place for it. So while thinking about it, Nyall himself made the situation easier and offered to relicense the original code.
-
-{{< tweet user="nyalldawson" id="1184375622748889088" >}}
 
 However, there was no clear consensus what is the best way at that time and the whole idea was set aside, until the end of the year, when I decided to keep it simple and release the script as a tiny Python package. And `[greedy](https://github.com/martinfleis/greedy)` was born.
 
