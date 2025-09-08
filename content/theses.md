@@ -38,10 +38,6 @@ The project shall quantitatively explore the relationship between how cities are
 
 The ability of types of housing to host people from different socio-economic population groups differs, but it is largely unmapped. The work shall look at selected aspects of population composition and evaluate how different housing patterns (e.g., single-family housing, perimeter blocks, housing estates) support various population groups.
 
-#### Spatial distribution of amenities in relation to street network connectivity in Prague
-
-Allocation of amenities follows the structure of cities, particularly linked to street network configuration, population density and major transportation hubs (e.g. subway stations). The project shall explore the effects of these components on the spatial distribution of POIs in Prague. The project will be done in collaboration with the Institute of Planning and Development Prague (IPR).
-
 ### Classification of urban environments
 
 The complexity of the urban environment is unfathomable. To be able to work with it, we need to reduce its dimensionality to a subset of categories roughly representing the breadth of options. Students are invited to develop such classification, capturing selected perspectives of urban analytics.
@@ -69,7 +65,3 @@ Proposals methodically falling under spatial data science and usage of advanced 
 #### Modifiable Areal Unit Problem in urban environments
 
 Modifiable Areal Unit Problem (MAUP) deals with selecting a spatial unit of analysis and its impacts on the analysis results. Cities are known for their heterogeneity, and a spatial unit suitable for the historical core may need to be revised in the modernist housing estates. This project should examine the issue and assess the suitability of commonly used spatial units and the problems they may bring.
-
-#### The Impact of Erroneous Polygonal Coverage Topology on Spatial Statistical Methods
-
-Spatial statistics often relies on data structures reflecting topological relationship of individual observations. However, when the assumed polygonal coverage is not topologically sound, the relationship detection is affected. This in turn impacts the outcome of statistical methods relying on topology. This work shall map common issues in coverage topology and assess their effect on resulting statistics.
