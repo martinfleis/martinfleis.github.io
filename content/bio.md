@@ -14,7 +14,9 @@ His research interest lies in urban morphology and spatial data science focusing
 
 Martin is an author or a maintainer of a range of open scientific software. He developed [`momepy`](http://docs.momepy.org), the open source urban morphology measuring toolkit for Python providing a wide range of tools for morphometric analysis. Since 2019, Martin is a member of the development team of [`GeoPandas`](http://geopandas.org), the open source Python package for geographic data. In 2020, he joined the development team of [`PySAL`](https://pysal.org), the Python library for spatial analysis. On top of that, he regularly contributes to other open source projects and develops his own packages like [`Clustergram`](http://clustergram.readthedocs.io) for visualisation of cluster analysis or [`Xvec`](https://xvec.readthedocs.io) for vector data cubes handling.
 
-[martin@martinfleischmann.net](mailto:martin@martinfleischmann.net)
+[martin@martinfleischmann.net](mailto:martin@martinfleischmann.net) (personal)
+<br>
+[martin.fleischmann@natur.cuni.cz](mailto:martin.fleischmann@natur.cuni.cz) (work)
 <br>
 [@martinfleischmann.net](https://bsky.app/profile/martinfleischmann.net)
 <br>
