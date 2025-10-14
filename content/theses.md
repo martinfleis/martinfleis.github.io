@@ -26,6 +26,28 @@ Students are invited to work on Bachelor's or Master's theses on topics linked t
 
 *Projects can be written in Czech or English.*
 
+### Spatial Data Science and advanced methods of quantitative geography
+
+Proposals methodically falling under spatial data science and usage of advanced methods of quantitative geography are generally welcome even on topics other than those listed above.
+
+#### Modifiable Areal Unit Problem in urban environments
+
+Modifiable Areal Unit Problem (MAUP) deals with selecting a spatial unit of analysis and its impacts on the analysis results. Cities are known for their heterogeneity, and a spatial unit suitable for the historical core may need to be revised in the modernist housing estates. This project should examine the issue and assess the suitability of commonly used spatial units and the problems they may bring.
+
+*English language preferred.*
+
+#### Spatially stratified cross-validation techniques and their effects on spatial leakage elimination
+
+Due to the Tobler's First Law of Geography and the general nature of geographic data, there is a need to split the data into train, test, and validation splits using more advanced logic than what could be done for non-spatial data. The issue comes from the spatial dependence between nearby observations and it is precisely this dependence that has a tendency of skewing the model performance metrics and misleading us about its quality. The topic is not well studied, yet important in many applications. The project should study various methods of spatially stratified cross-validation and their ability to minimise leakage, hence resulting in more robust models down the line.
+
+*English language preferred.*
+
+#### Network-constrained Ripley's functions for spatial cluster analysis
+
+Ripley's "alphabet" of functions is aimed at an assessment of a randomness of point patterns based on distances between the points (and random samples in some cases). However, the distances are generally measured in Euclidean space. This topic should extent the current methods to determine the randomness and evenness of allocation of points of interest along the street network. Or in theory, any arbitrary distance matrix (e.g. multi-modal travel model), where such a conceptualisation should be favoured.
+
+*English language preferred.*
+
 ### Urban morphology
 
 #### Culture and politics and their effects on the shape of urban development
@@ -57,11 +79,3 @@ On rare occasions, students can apply for projects falling under earth observati
 #### See the invisible: how much can be sensed from above?
 
 An assessment of the ability of multispectral satellite imagery to *sense* various aspects of an urban environment. We know we can directly capture specific components of cities (think about greenery, heat, emissions, and land cover), but other aspects can be seen indirectly. Can we sense wealth? Deprivation? Population diversity? This project shall explore the feasibility of relying on openly available satellite imagery to predict concepts of urbanised life that are not immediately visible.
-
-### Spatial Data Science and advanced methods of quantitative geography
-
-Proposals methodically falling under spatial data science and usage of advanced methods of quantitative geography are generally welcome even on topics other than those listed above.
-
-#### Modifiable Areal Unit Problem in urban environments
-
-Modifiable Areal Unit Problem (MAUP) deals with selecting a spatial unit of analysis and its impacts on the analysis results. Cities are known for their heterogeneity, and a spatial unit suitable for the historical core may need to be revised in the modernist housing estates. This project should examine the issue and assess the suitability of commonly used spatial units and the problems they may bring.
