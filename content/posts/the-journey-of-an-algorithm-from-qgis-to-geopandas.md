@@ -4,7 +4,6 @@ date: "2020-06-21"
 tags:
   - "geography"
   - "python"
-tags:
   - "geopandas"
   - "greedy"
   - "python"

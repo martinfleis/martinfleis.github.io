@@ -1,8 +1,7 @@
 baseURL: "http://martinfleischmann.net/"
-languageCode: en-us
+locale: en-us
 title: Martin Fleischmann
 theme: PaperMod
-googleAnalytics: G-68NX9FKNLJ
 
 permalinks:
   posts: "/:slug"
@@ -13,6 +12,9 @@ markup:
       unsafe: true
 
 params:
+  author:
+    name: Martin Fleischmann
+    email: martin@martinfleischmann.net
   defaultTheme: auto
   ShowReadingTime: true
   ShowCodeCopyButtons: true
@@ -38,8 +40,6 @@ params:
       url: "mailto:martin@martinfleischmann.net"
     - name: github
       url: "https://github.com/martinfleis"
-    - name: bluesky
-      url: "https://bsky.app/profile/martinfleischmann.net"
     - name: mastodon
       url: "https://fosstodon.org/@martinfleis"
 

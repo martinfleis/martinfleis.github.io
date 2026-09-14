@@ -1,13 +1,12 @@
 {{- $scratch := newScratch }}
 
 {{- if not .Date.IsZero -}}
-{{- $scratch.Add "meta" (slice (printf "<span title='%s'>%s</span>" (.Date) (.Date | time.Format (default "January 2, 2006" site.Params.DateFormat)))) }}
-{{- end }}
-
-{{- with (partial "author.html" .) }}
-{{- $scratch.Add "meta" (slice .) }}
+{{- $scratch.Add "meta" (slice (.Date | time.Format (default "January 2, 2006" site.Params.DateFormat))) }}
 {{- end }}
 
 {{- with ($scratch.Get "meta") }}
-{{- delimit . "&nbsp;·&nbsp;" -}}
+{{- range $index, $item := . }}
+{{- if gt $index 0 }}&nbsp;·&nbsp;{{ end -}}
+{{- $item -}}
+{{- end -}}
 {{- end -}}

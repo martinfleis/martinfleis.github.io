@@ -1,0 +1,8 @@
+{{- $user := .Get 0 -}}
+{{- $id := .Get 1 -}}
+{{- $file := .Get 2 -}}
+{{- $url := printf "https://gist.github.com/%s/%s.js" $user $id -}}
+{{- with $file -}}
+{{- $url = printf "%s?file=%s" $url . -}}
+{{- end -}}
+<script src="{{ $url | safeURL }}"></script>

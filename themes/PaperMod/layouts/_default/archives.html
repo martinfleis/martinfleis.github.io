@@ -6,7 +6,7 @@
     {{- if (.Param "ShowRssButtonInSectionTermList") }}
     {{- $rss := (.OutputFormats.Get "rss") }}
     {{- if (eq .Kind `page`) }}
-      {{- $rss = (.Parent.OutputFormats.Get "rss") }}
+    {{- $rss = (.Parent.OutputFormats.Get "rss") }}
     {{- end }}
     {{- with $rss }}
     <a href="{{ .RelPermalink }}" title="RSS" aria-label="RSS">

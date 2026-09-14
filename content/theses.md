@@ -6,45 +6,45 @@ url: "/theses/"
 
 ## PhD topics
 
-I am currently looking for candidates to fill one funded PhD position.
-
-Please reach out (<martin.fleischmann@natur.cuni.cz>) if you're interested and considering applying.
-
-### Bridging urban morphology and community ecology to study structure, organisation and evolution of cities
-
-Cities, composed of a plethora of layers, physical or not, made by humans or nature, are entities that, due to their complexity, tend to be abstracted and oversimplified when being analysed.
-However, they can be conceptualised as complex adaptive systems, with many layers being intertwined with the others. When focusing on a layer of urban form - the physical built-up aspects - reflecting the structure of cities and an environment within which all the other components take place, the field of urban morphology tends to simplify the variety into a set of well-known archetypes. This project will move beyond the archetypal conceptualisation of urban form and apply data-driven techniques to explore the ecology of urban form.
-
-In many aspects, ecological communities are similar to cities as both are spatially constrained complex adaptive systems. Where urban morphology struggles to analyse the variety of urban form and opts for archetypes, community ecology offers a theory and a robust set of advanced methods for analysing such systems that can be brought to urban morphology. The core of this project will focus on understanding the ability of community ecology to describe the physical environment of cities and uncover underlying patterns forming the places we live in. The project's scope will be primarily methodological research leading to the development of new techniques, potentially affecting both urban morphology and community ecology, and creating tools to use them.
-
-This project will take the form of an open, data-driven, multidisciplinary research done in cooperation with the Department of Social Geography and Regional Science (Martin Fleischmann) and the Department of Ecology (David Hořák, EcoSpace group). It should bring together quantitative community ecology and spatial data science with links to scientific software development (in Python).
-Applicants should have a degree in geography, ecology, urban sciences (urban studies, planning, architecture) or other relevant fields. Inclination towards data science and geoinformatics is expected. Experience with programming languages for data science is a benefit but not a strict requirement.
+There is currently no funded position in my team. However, if you are able to self-fund
+your studies, lease reach out (<martin.fleischmann@natur.cuni.cz>).
 
 ## Bachelor's or Master's topics
 
-Students are invited to work on Bachelor's or Master's theses on topics linked to the research areas of the ongoing projects and on the general scope of the work of the team. Note that with an exception of urban morphology, primarily quantitative methods are expected to be used.
+Students are invited to work on Bachelor's or Master's theses on topics linked to the
+research areas of the ongoing projects and on the general scope of the work of the team.
+Note that with an exception of urban morphology, primarily quantitative methods are
+expected to be used.
 
 *Projects can be written in Czech or English.*
 
 ### Spatial Data Science and advanced methods of quantitative geography
 
-Proposals methodically falling under spatial data science and usage of advanced methods of quantitative geography are generally welcome even on topics other than those listed above.
+Proposals methodically falling under spatial data science and usage of advanced methods
+of quantitative geography are generally welcome even on topics other than those listed
+here.
 
 #### Modifiable Areal Unit Problem in urban environments
 
-Modifiable Areal Unit Problem (MAUP) deals with selecting a spatial unit of analysis and its impacts on the analysis results. Cities are known for their heterogeneity, and a spatial unit suitable for the historical core may need to be revised in the modernist housing estates. This project should examine the issue and assess the suitability of commonly used spatial units and the problems they may bring.
-
-*English language preferred.*
-
-#### Spatially stratified cross-validation techniques and their effects on spatial leakage elimination
-
-Due to the Tobler's First Law of Geography and the general nature of geographic data, there is a need to split the data into train, test, and validation splits using more advanced logic than what could be done for non-spatial data. The issue comes from the spatial dependence between nearby observations and it is precisely this dependence that has a tendency of skewing the model performance metrics and misleading us about its quality. The topic is not well studied, yet important in many applications. The project should study various methods of spatially stratified cross-validation and their ability to minimise leakage, hence resulting in more robust models down the line.
+Modifiable Areal Unit Problem (MAUP) deals with selecting a spatial unit of analysis and
+its impacts on the analysis results. Cities are known for their heterogeneity, and a
+spatial unit suitable for the historical core may need to be revised in the modernist
+housing estates. This project should examine the issue and assess the suitability of
+commonly used spatial units and the problems they may bring.
 
 *English language preferred.*
 
 #### Network-constrained Ripley's functions for spatial cluster analysis
 
-Ripley's "alphabet" of functions is aimed at an assessment of a randomness of point patterns based on distances between the points (and random samples in some cases). However, the distances are generally measured in Euclidean space. This topic should extent the current methods to determine the randomness and evenness of allocation of points of interest along the street network. Or in theory, any arbitrary distance matrix (e.g. multi-modal travel model), where such a conceptualisation should be favoured.
+Ripley's "alphabet" of functions is aimed at an assessment of a randomness of point
+patterns based on distances between the points (and random samples in some cases). Such
+point patterns can represent locations of accidents involving pedestrians, locations of
+retain and other services, locations or AirBnBs and similar. However, the distances are
+generally measured in Euclidean space. This topic should extent the current methods to
+determine the randomness and evenness of allocation of points of interest along the
+street network, which is critical when evaluating point patterns in urban environment.
+Or in theory, any arbitrary distance matrix (e.g. multi-modal travel model), where such
+a conceptualisation should be favoured.
 
 *English language preferred.*
 
@@ -54,28 +54,30 @@ Ripley's "alphabet" of functions is aimed at an assessment of a randomness of po
 
 *Echoes of the past in the shape of our cities*
 
-The project shall quantitatively explore the relationship between how cities are built and the cultural and political context that has influenced that. The scope can vary from local to global use cases.
+The project shall quantitatively explore the relationship between how cities are built
+and the cultural and political context that has influenced that. The scope can vary from
+local to global use cases.
 
 #### Social diversity of housing
 
-The ability of types of housing to host people from different socio-economic population groups differs, but it is largely unmapped. The work shall look at selected aspects of population composition and evaluate how different housing patterns (e.g., single-family housing, perimeter blocks, housing estates) support various population groups.
+The ability of types of housing to host people from different socio-economic population
+groups differs, but it is largely unmapped. The work shall look at selected aspects of
+population composition and evaluate how different housing patterns (e.g., single-family
+housing, perimeter blocks, housing estates) support various population groups.
 
 ### Classification of urban environments
 
-The complexity of the urban environment is unfathomable. To be able to work with it, we need to reduce its dimensionality to a subset of categories roughly representing the breadth of options. Students are invited to develop such classification, capturing selected perspectives of urban analytics.
+The complexity of the urban environment is unfathomable. To be able to work with it, we
+need to reduce its dimensionality to a subset of categories roughly representing the
+breadth of options. Students are invited to develop such classification, capturing
+selected perspectives of urban analytics.
 
 #### People: spatial dimension of behaviour
 
-The project aims to develop a quantitative classification of the population based on selected aspects of human behaviour (e.g. internet usage patterns and daily mobility).
+The project aims to develop a quantitative classification of the population based on
+selected aspects of human behaviour (e.g. internet usage patterns, daily mobility).
 
 #### Places: what is around
 
-Classification of urban space according to its function. Where do we find specific categories of POIs? Which places are more accessible than the others? Why is that?
-
-### Satellite imagery in cities
-
-On rare occasions, students can apply for projects falling under earth observation. This topic requires Python-based methods to be used.
-
-#### See the invisible: how much can be sensed from above?
-
-An assessment of the ability of multispectral satellite imagery to *sense* various aspects of an urban environment. We know we can directly capture specific components of cities (think about greenery, heat, emissions, and land cover), but other aspects can be seen indirectly. Can we sense wealth? Deprivation? Population diversity? This project shall explore the feasibility of relying on openly available satellite imagery to predict concepts of urbanised life that are not immediately visible.
+Classification of urban space according to its function. Where do we find specific
+categories of POIs? Which places are more accessible than the others? Why is that?
